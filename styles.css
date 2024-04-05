@@ -1,33 +1,34 @@
 h1{
-    text-align: center;
-  }
-  body{ 
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSALZbBKupEkOXQV5WDyUT1om__i1FEsvjIns--b3YhEA&s);
-    background-size: cover;
-    text-align: center;
-    padding: auto;
+  text-align: center;
+}
+body{ 
+  background-image: url(https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: auto;
+
+}
+#description{
+  font-family: impact;
+  text-align: center;
+}
+input{
+  text-align: centered;
+  padding: auto;
+  margin: auto;
+}
+.credentials{
+  overflow: hidden;
+  background-color: #25547a;
+  width: 75%;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  text-align: centered;
+  box-shadow: 3px 3px 3px 3px #155e99
   
-  }
-  #description{
-    font-family: impact;
-    text-align: center;
-  }
-  input{
-    text-align: centered;
-    padding: auto;
-    margin: auto;
-  }
-  .credentials{
-    overflow: hidden;
-    background-color: #25547a;
-    width: 75%;
-    height: auto;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 3px 3px 3px 3px #155e99
-    
-  }
-  form {
-    overflow: hidden;
-  }
+}
+form {
+  overflow: hidden;
+  font-family: sans-serif;
+}
