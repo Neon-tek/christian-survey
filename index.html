@@ -1,9 +1,10 @@
+<!-- John15:4 "Abide in Me, and I in you. As the branch cannot bear fruit of itself unless it abides in the vine, so neither can you unless you abide in Me"-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
    <meta charset="UTF-8">
    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico" type="image/png"/>
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <h1 id="title"> Christian Centre</h1>
    <p id="description">Because we abide in the vine</p>
@@ -13,38 +14,39 @@
       <div class="credentials">
         <p><input id="name" type="text" required placeholder="Eg. Wesley Weiss"><label id="name-label"> Enter your name</label></p>
         <p><input id="email" type="email" required placeholder="Eg. walcotwand44@gmail.com"><label id="email-label"> Enter your Email</label></p>
-        <p><input id="number" type="tel" placeholder="+1xxxx"><label id="number-label"> Enter your phone number</label></p>
+        <p><input id="number" type="number" min="1" max="10000000000" placeholder="+1xxxx"><label id="number-label"> Enter your phone number</label></p>
       </div>
-      <div class="change">
-        <p>What would you like God to change in your life 
-          <select id="dropdown">
-            <option> Select one</option>
-            <option> Spiritual life</option>
-            <option> Financial status</option>
-            <option> Marriage</option>
-            <option> Life direction</option>
-          </select>
-      </div>
-      <div class="status">
-        <p>Please share your current religious status</p>
-        <input type="radio" name="Religious-status" value="christian" checked><label id="Religious-status"> I am a Christian</label>
-        <input type="radio" name="Religious-status" value="non-christian"><label id="Religieous-status"> I want to convert to Christianity</label>
-        <input type="radio" name="Religious-status" value="back-slidden"><label id="Religious-status"> I had back-slidden</label>
-      </div>
-      <div class="closer">
-      <p> How can we help you get closer to God(Select all that apply)</p>
-      <input type="checkbox" value="verses"><label> Daily verses<label>
-      <input type="checkbox" value="prayer"><label> Prayers</label>
-      <input type="checkbox" value="Mass"><label> Mass</label>
-      <input type="checkbox" value="Fellowship"><label> Fellowship</label>
-      </div>
-      <div class="draw">
-      <p>What is your draws you closest to God(Optional)</p><textarea></textarea>
-      </div>
-      <div class="ready">
-      <p><button id="submit">I'm Ready</button>
+      <div class="content">
+        <div class="change">
+          <p>What would you like God to change in your life 
+            <select id="dropdown">
+              <option> Select one</option>
+              <option> Spiritual life</option>
+              <option> Financial status</option>
+              <option> Marriage</option>
+              <option> Life direction</option>
+            </select>
+        </div>
+        <div class="status">
+          <p>Please share your current religious status</p>
+          <input type="radio" name="Religious-status" value="christian" checked><label id="Religious-status"> I am a Christian</label>
+          <input type="radio" name="Religious-status" value="non-christian"><label id="Religieous-status"> I want to convert to Christianity</label>
+          <input type="radio" name="Religious-status" value="back-slidden"><label id="Religious-status"> I had back-slidden</label>
+        </div>
+        <div class="closer">
+        <p> How can we help you get closer to God(Select all that apply)</p>
+        <input type="checkbox" value="verses"><label> Daily verses<label>
+        <input type="checkbox" value="prayer"><label> Prayers</label>
+        <input type="checkbox" value="Service"><label> Service</label>
+        <input type="checkbox" value="Fellowship"><label> Fellowship</label>
+        </div>
+        <div class="draw">
+          <p>What is your draws you closest to God(Optional)</p><textarea></textarea>
+        </div>
+        <div class="ready">
+          <p><button id="submit">I'm Ready</button>
+        </div>
       </div>
     </form>
   </body>
 <html>
-

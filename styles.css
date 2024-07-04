@@ -1,3 +1,7 @@
+/*
+ John15: 4
+ "Abide in Me, and I in you. As the branch cannot bear fruit of itself unless it abides in the vine, so neither can you unless you abide in Me"
+*/
 h1{
   text-align: center;
 }
@@ -8,8 +12,13 @@ body{
   padding: auto;
 
 }
+#title {
+  color: orangered;
+}
 #description{
   font-family: impact;
+  font-style: italic;
+  color: orangered;
   text-align: center;
 }
 input{
@@ -17,7 +26,7 @@ input{
   padding: auto;
   margin: auto;
 }
-.credentials{
+.credentials {
   overflow: hidden;
   background-color: #25547a;
   width: 75%;
@@ -27,6 +36,12 @@ input{
   text-align: centered;
   box-shadow: 3px 3px 3px 3px #155e99
   
+}
+.content {
+  background-color: rgb(228, 232, 242, 30%);
+  margin: 15px;
+  padding: 5px;
+  border-radius: 20px;
 }
 form {
   overflow: hidden;
